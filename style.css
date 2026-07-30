@@ -1,0 +1,25 @@
+:root {
+  --main: #4444bb;
+  --dark: #212388;
+  --bright: #d40708;
+  --light: #eeeeee;
+}
+
+body {
+  font-family: Geneva, Tahoma, sans-serif;
+}
+
+nav,
+.btn-mag,
+.category,
+.product-name,
+.product-purchase,
+footer {
+  background-color: var(--main);
+  color: var(--light);
+  padding: 0.5rem;
+}
+
+.product-card {
+  border: 5px solid var(--bright);
+}

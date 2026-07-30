@@ -1,0 +1,45 @@
+nav,
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.page-container {
+  display: flex;
+}
+
+aside {
+  width: 150px;
+  flex-shrink: 0;
+}
+
+main {
+  flex: 1;
+}
+
+.cards-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(10rem, 1fr));
+  grid-auto-rows: auto;
+  gap: 0.55rem;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+}
+
+/* @media (980px) */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
